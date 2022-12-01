@@ -1,0 +1,143 @@
+@import "../home\ page/reset.css";
+@import "./header_footer.css";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: gilroy_f;
+  src: url(../home\ page/fonts/Gilroy-Light.otf);
+}
+/* main */
+.aomd1h2 {
+  font-size: 3.3vw;
+  color: #434242;
+  margin-top: 50px;
+}
+.aomd2h2 {
+  font-size: 0.93vw;
+  color: #000000;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.aomd3_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.aomd3_input {
+  width: 19%;
+  padding: 20px 0;
+  border: 1px solid rgba(67, 66, 66, 0.5);
+  font-size: 0.93vw;
+  color: #a6a6a6;
+  text-indent: 30px;
+  margin: 15px 0;
+}
+.aomd3_button {
+  width: 19%;
+  padding: 20px 0;
+  background: #4ba9ff;
+  border: none;
+  color: white;
+  margin-top: 30px;
+}
+.aomd3_p {
+  text-align: center;
+  font-size: 0.78vw;
+  margin-top: 25px;
+  margin-bottom: 142px;
+}
+.aomd3_a {
+  font-size: 0.78vw;
+  color: rgba(72, 211, 153, 1);
+}
+@media only screen and (max-width: 1124px) {
+  .aomd1h2 {
+    font-size: 6.25vw;
+    margin-top: 54px;
+    text-align: center;
+    width: 85%;
+    line-height: 7.5vw;
+    margin: 54px auto 17px;
+  }
+  .aomd2h2 {
+    font-size: 1.75vw;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .aomd3_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+  .aomd3_input {
+    width: 53%;
+    padding: 40px 0;
+    font-size: 1.75vw;
+    text-indent: 40px;
+    margin: 17px 0;
+  }
+  .aomd3_button {
+    width: 30%;
+    padding: 20px 0;
+    margin-top: 34px;
+    font-size: 1.95vw;
+  }
+  .aomd3_p {
+    font-size: 1.46vw;
+    margin-top: 22px;
+    margin-bottom: 53px;
+  }
+  .aomd3_a {
+    font-size: 1.46vw;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .aomd1h2 {
+    font-size: 9.6vw;
+    width: 85%;
+    line-height: 11.4vw;
+    margin: 47px auto 17px;
+  }
+  .aomd2h2 {
+    font-size: 4.7vw;
+    line-height: 5.3vw;
+    color: #000000;
+    text-align: center;
+  }
+  .aomd3_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 38px;
+  }
+  .aomd3_input {
+    width: 100%;
+    padding: 40px 0;
+    font-size: 4.7vw;
+    text-indent: 40%;
+    margin: 17px 0;
+  }
+  .aomd3_button {
+    width: 80%;
+    padding: 20px 0;
+    margin-top: 34px;
+    font-size: 5.3vw;
+  }
+  .aomd3_p {
+    font-size: 4vw;
+    margin-top: 22px;
+    margin-bottom: 38px;
+  }
+  .aomd3_a {
+    font-size: 4vw;
+  }
+}

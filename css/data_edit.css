@@ -1,0 +1,142 @@
+@import "../home\ page/reset.css";
+@import "./header_footer.css";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: gilroy_f;
+  src: url(../home\ page/fonts/Gilroy-Light.otf);
+}
+/* main */
+.demd1h2 {
+  font-size: 3.333vw;
+  color: #434242;
+  margin: 50px 0px 50px 0px;
+}
+.date_edit_mine_div2 {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.date_edit_mine_div2_1 {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.date_edit_mine_div2_2 {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.demd2_1_input {
+  width: 19%;
+  padding: 30px 0;
+  border: 1px solid rgba(67, 66, 66, 0.5);
+  text-indent: 40px;
+  font-size: 0.923vw;
+  color: #a6a6a6;
+  margin: 19px 24px 19px 24px;
+}
+.date_edit_mine_div2_3 {
+  width: 19%;
+  margin: 0 auto;
+}
+.demd2_3_button {
+  width: 100%;
+  padding: 30px 0;
+  background: #4ba9ff;
+  border: none;
+  font-size: 1.042vw;
+  color: white;
+  margin-top: 80px;
+}
+.demd2_4_p {
+  text-align: center;
+  font-size: 0.781vw;
+  margin-top: 31px;
+  margin-bottom: 117px;
+}
+.demd2_4_a {
+  color: rgba(255, 129, 129, 1);
+}
+.success{
+  border: 2px solid  #1AC01D;
+  border-radius: 15px;
+}
+.error{
+  border: 2px solid #C0301A;
+  border-radius: 15px;
+}
+.date_edit_mine_div2 span{
+  color: #4ba9ff;
+  font-size: 1vw;
+}
+@media only screen and (max-width: 1124px) {
+  .demd1h2 {
+    font-size: 6.25vw;
+    text-align: center;
+    margin: 54px 0 100px;
+  }
+  .date_edit_mine_div2 {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .demd2_1_input {
+    width: 54%;
+    padding: 30px 0;
+    font-size: 1.758vw;
+    margin: 18px;
+  }
+  .date_edit_mine_div2_3 {
+    width: 30%;
+  }
+  .demd2_3_button {
+    padding: 20px 0;
+    font-size: 1.953vw;
+    margin-top: 50px;
+  }
+  .demd2_4_p {
+    font-size: 1.465vw;
+    margin-top: 31px;
+    margin-bottom: 74px;
+  }
+  .date_edit_mine_div2 span{
+    font-size: 2.5vw;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .demd1h2 {
+    font-size: 9.6vw;
+    margin: 40px 0 35px;
+  }
+
+  .demd2_1_input {
+    width: 100%;
+    padding: 40px 0;
+    font-size: 4.8vw;
+  }
+  .date_edit_mine_div2_3 {
+    width: 80%;
+  }
+  .demd2_3_button {
+    padding: 20px 0;
+    font-size: 5.333vw;
+    margin-top: 62px;
+  }
+  .demd2_4_p {
+    width: 88%;
+    margin: 0 auto;
+    font-size: 4vw;
+    margin-top: 30px;
+    margin-bottom: 66px;
+  }
+  .date_edit_mine_div2 span{
+    font-size: 4vw;
+  }
+}

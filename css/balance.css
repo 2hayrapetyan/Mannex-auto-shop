@@ -1,0 +1,130 @@
+@import "../home\ page/reset.css";
+@import "./header_footer.css";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: gilroy_f;
+  src: url(../home\ page/fonts/Gilroy-Light.otf);
+}
+
+/* main */
+
+.balance_main_div1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.bmd1h2 {
+  font-size: 3.333vw;
+  color: #434242;
+}
+
+.bmd1p {
+  display: flex;
+  padding-left: 130px;
+  margin-bottom: 5px;
+  font-size: 1.979vw;
+  color: #48d399;
+}
+.bmd2p {
+  font-size: 1.25vw;
+  color: #000000;
+  padding-bottom: 30px;
+}
+.bmd3_d1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #a6a6a6;
+  height: 50px;
+}
+.bmd3_d1_bold {
+  display: flex;
+  align-items: center;
+  padding-left: 52px;
+  padding-right: 10px;
+  height: 100%;
+}
+.bmd3_d1_t_bold {
+  font-size: 1.2vw;
+}
+.bmd3_d1_not_bold {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #4ba9ff;
+  height: 100%;
+}
+.bmd3_d1_n_bold {
+  font-size: 0.938vw;
+  padding: 0px 30px 0px 30px;
+}
+.bmd3_d1_icon {
+  padding-right: 15px;
+}
+
+.bmd3_d2_1 {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.25vw;
+}
+
+.bmd3_d2_p1 {
+  padding: 13px 77px 13px 73px;
+}
+.bmd3_d2_p2 {
+  padding: 13px 0px 13px 0px;
+}
+.bmd3_d2_p3 {
+  padding: 13px 0px 13px 335px;
+}
+.bmd3_d2_p4 {
+  padding: 13px 0px 13px 175px;
+}
+.bmd3_d2_p5 {
+  padding: 13px 0px 13px 100px;
+}
+.bmd3_d2_2_line {
+  background: #a6a6a6;
+  height: 3px;
+}
+.balance_main_div4 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 70px;
+}
+.bmd3form {
+  width: 19%;
+  margin: 0 auto;
+}
+.bmd4_input {
+  width: 100%;
+  padding: 20px 0;
+  border: 0.638627px solid #a6a6a6;
+  font-size: 0.938vw;
+  text-align: center;
+  color: #a6a6a6;
+}
+.balance_main_div5 {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+  margin-bottom: 70px;
+}
+.bmd5button {
+  width: 19%;
+  padding: 20px 0;
+  background: #4ba9ff;
+  border: none;
+  color: white;
+  font-size: 1.042vw;
+}

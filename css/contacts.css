@@ -1,0 +1,70 @@
+@import "../home\ page/reset.css";
+@import "./header_footer.css";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: gilroy_f;
+  src: url(../home\ page/fonts/Gilroy-Light.otf);
+}
+/* main */
+.conmd1h2 {
+  font-size: 3.333vw;
+  color: #434242;
+  margin: 50px 0;
+}
+.contacts_mine_div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.conmd2_p {
+  font-size: 0.928vw;
+  margin-top: 50px;
+  margin-bottom: 149px;
+}
+.conmd2_a {
+  font-size: 0.938;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+}
+.contacts_mine_div2 span {
+  font-weight: 900;
+  font-size: 1.25vw;
+}
+@media only screen and (max-width: 1124px) {
+  .conmd1h2 {
+    font-size: 6.25vw;
+    text-align: center;
+    margin: 54px 0 50px;
+  }
+  .conmd2_p {
+    font-size: 1.758vw;
+    margin-top: 50px;
+    margin-bottom: 208px;
+  }
+  .conmd2_a {
+    font-size: 1.758vw;
+  }
+  .contacts_mine_div2 span {
+    font-size: 2.344vw;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .conmd1h2 {
+    font-size: 9.6vw;
+    margin: 40px 0;
+  }
+  .conmd2_p {
+    font-size: 4.661vw;
+    margin-bottom: 77px;
+  }
+  .conmd2_a {
+    font-size: 4.661vw;
+  }
+  .contacts_mine_div2 span {
+    font-size: 6.216vw;
+  }
+}

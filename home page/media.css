@@ -1,0 +1,673 @@
+@media only screen and (max-width: 1124px) {
+
+    .container {
+        width: 84%;
+        margin: 0 auto;
+    }
+
+    .logo {
+        width: 29%;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+    .buck-reg {
+        display: none;
+    }
+    .burger-menu {
+        display: block;
+        position: fixed;
+        right: 100px;
+        z-index: 1000;
+    }
+
+
+.burger-list{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 3vw;
+
+}
+.burger{
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 130px;
+    background: transparent;
+    width: auto;
+    background-color: white;
+    z-index: 1000;
+}
+   
+    .search {
+        width: 80%;
+    }
+
+    /* section1 */
+    .section1 {
+        margin-top: 45px;
+    }
+
+    .product-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        width: 52%;
+    }
+
+    .slide-img {
+        width: 300px;
+        height: auto;
+        margin: 40px auto;
+    }
+
+    .title-div {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .count-of-slider{
+        bottom: 90px;
+        right: -30px;
+      }
+      .slide-buttons {
+        bottom: 90px;
+        left:-60px;
+      }
+      
+      .numbers1{
+        font-size: 5.78vw;
+       
+      }
+      .numbers2{
+        font-size: 3vw;
+      }
+      .prevslide{
+        padding:7px;
+        margin-right: 8px;
+      }
+      .nextslide{
+        padding:7px;
+        margin-left: 8px;
+      }
+
+    .title {
+        font-size: 6.2vw;
+        line-height: 7.4vw;
+        width: 88%;
+    }
+
+    .catalog2 {
+        font-size: 1.6vw;
+    }
+
+    .catalog {
+        padding: 25px;
+        font-size: 1.6vw;
+    }
+
+
+    .marketing-items {
+        font-size: 1.7vw;
+        padding: 25px;
+    }
+
+    /* section 2 */
+    .about-company {
+        margin-top: 128px;
+    }
+
+    .about-header {
+        margin-bottom: 63px;
+        ;
+    }
+
+    .about-header p {
+        left: 0;
+        top: -40px;
+        font-size: 5em;
+
+    }
+
+    .about-h2 {
+        font-size: 2.5em;
+    }
+
+    .read-more a {
+        font-size: 18px;
+        padding: 27px;
+        margin-top: 83px;
+
+    }
+
+    .read-more {
+        width: 42%;
+    }
+
+    .company-text {
+        width: 60%;
+        font-size: 1.4vw;
+
+    }
+
+    .company-text p {
+        line-height: 1.5vw;
+    }
+
+    .hero {
+        position: absolute;
+        right: 0;
+        bottom: 80px;
+
+        width: 40%;
+
+    }
+
+    /* section 3 */
+    .section3 {
+        margin-top: 128px;
+    }
+
+    .catalog-header {
+        font-size: 2.3em;
+    }
+
+    .catalog-header p {
+        top: -40px;
+        font-size: 2.6em;
+    }
+
+    .catalog-menu {
+        width: 68%;
+        margin: auto;
+        margin-top: 68px;
+        margin-bottom: 35px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .catalog-menu ul li a {
+        padding: 5px 12px;
+        font-size: 1.4vw;
+    }
+
+    .card-none {
+        display: none;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 30px;
+    }
+
+
+    .product-card {
+        padding: 20px 0;
+    }
+
+    .product-name p {
+        font-size: 2.4vw;
+    }
+
+    .product-text {
+        font-size: 1.2vw;
+        line-height: 1.2vw;
+    }
+
+    .product-price {
+        margin-top: 15px;
+    }
+
+    .product-price p {
+        padding: 0 8px;
+        font-size: 1.2vw;
+    }
+
+    .mention {
+        font-size: 1.2vw;
+        padding: 0 10px;
+        gap: 5%;
+
+    }
+
+    .plus {
+
+        font-size: 1.8vw;
+    }
+
+    .minus {
+
+        font-size: 1.8vw;
+    }
+
+    .product-price button img {
+        width: 20px;
+        height: auto;
+    }
+    /* pagination */
+
+    .cards-pages-parent{
+        gap: 44px;
+      }
+      .pagination {
+        margin-bottom: 50px;
+      }
+     
+      .pagination button{
+        font-size: 3vw;
+      }
+      .pagination span {
+        font-size: 3vw;
+      }
+    
+    .character {
+        gap: 20px;
+        padding: 20px 0 50px 0;
+    }
+
+    .selects {
+        width: 80%;
+        gap: 8px;
+    }
+
+    .selects-header {
+        font-size: 1.7vw;
+    }
+
+    #type {
+        font-size: 1.2vw;
+        padding: 12px 30px;
+    }
+
+    .choose {
+        font-size: 1.3vw;
+        padding: 13px 0;
+        margin-top: 15px;
+    }
+
+    /* footer */
+
+    .footer {
+        padding-top: 20px;
+        padding-bottom: 140px;
+    }
+
+    .row-headers-copy img {
+        width: 90%;
+        height: auto;
+    }
+
+    .copyright {
+        line-height: 2.8vw;
+        font-size: 1.4vw;
+    }
+
+    .footh {
+        font-size: 1.6vw;
+        margin-bottom: 30px;
+    }
+
+    .list li {
+        font-size: 1.4vw;
+        line-height: 2.4vw;
+    }
+
+    .list img {
+        width: 8%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .slide-img{
+        width: 250px;
+        height: auto;
+        margin: 40px auto;
+    }
+
+    #type {
+        font-size: 1.2vw;
+        padding: 12px 10px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .container {
+        width: 86%;
+    }
+
+    .logo {
+        width: 46%;
+    }
+
+    .search {
+        width: 90%;
+    }
+    .burger-list{
+        font-size: 4.5vw;
+    }
+    /* section1 */
+    .section1 {
+        margin-top: 30px;
+    }
+
+    .view {
+        width: 70%;
+        margin: 10px auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+.product{
+    width: 100%;
+
+}
+.slider{
+    margin: auto;
+    width: 55%;
+}
+    .slide-img{
+        width: 100%;
+        height: auto;
+        margin: 10px auto;
+    }
+    .count-of-slider{
+        bottom: 70px;
+        right: 0;
+      }
+      .slide-buttons {
+        bottom: 70px;
+        left:0;
+      }
+      
+      .numbers1{
+        font-size: 9vw;
+       
+      }
+      .numbers2{
+        font-size: 5vw;
+      }
+      .prevslide{
+        padding:3px;
+        margin-right: 5px;
+      }
+      .nextslide{
+        padding:3px;
+        margin-left: 5px;
+      }
+
+
+    .title {
+        font-size: 8.5vw;
+        line-height: 8vw;
+        width: 100%;
+    }
+
+    .catalog2 {
+        width: 100%;
+        font-size: 3.5vw;
+        margin-top: 20px;
+    }
+
+    .catalog {
+        width: 100%;
+        padding: 17px 0;
+        font-size: 3vw;
+        margin-top: 20px;
+    }
+
+    .marketing {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+
+    }
+
+    .marketing-items {
+        font-size: 4vw;
+        margin: 30px;
+        padding: 20px 0;
+    }
+
+    /* section 2 */
+    .about-company {
+        margin-top: 78px;
+    }
+
+    .about-header {
+        margin-bottom: 16px;
+    }
+
+    .about-header p {
+        top: -20px;
+        font-size: 13vw;
+
+    }
+
+    .about-h2 {
+        font-size: 6vw;
+    }
+
+    .read-more a {
+        font-size: 3vw;
+        padding: 20px;
+        margin-top: 37px;
+
+    }
+
+    .read-more {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .company-text {
+        width: 87%;
+        font-size: 3vw;
+
+    }
+
+    .company-text p {
+        line-height: 3.5vw;
+    }
+
+    .hero {
+        display: none;
+
+    }
+
+    /* section 3 */
+    .section3 {
+        margin-top: 100px;
+    }
+
+    .catalog-header {
+        font-size: 4vw;
+    }
+
+    .catalog-header p {
+        top: -30px;
+        font-size: 12vw;
+    }
+
+    .catalog-menu {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .catalog-menu ul li a {
+        padding: 4px 10px;
+        font-size: 2vw;
+    }
+
+    .values-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards {
+        gap: 28px;
+    }
+
+
+    .product-card {
+        padding: 13px 0;
+    }
+
+    .product-name p {
+        font-size: 4vw;
+    }
+
+    .product-text {
+        font-size: 1.8vw;
+        line-height: 2.2vw;
+    }
+
+    .product-price {
+        margin-top: 13px;
+    }
+
+    .product-price p {
+        padding: 0 8px;
+        font-size: 2vw;
+    }
+
+    .mention {
+        font-size: 2vw;
+        padding: 0 10px;
+        gap: 5%;
+
+    }
+
+    .plus {
+
+        font-size: 3vw;
+    }
+
+    .minus {
+
+        font-size: 3vw;
+    }
+
+    .product-price button img {
+        width: 13px;
+        height: auto;
+    }
+
+    .value {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .cards-pages-parent{
+        gap: 60px;
+      }
+      .pagination {
+        margin-bottom: 36px;
+      }
+     
+      .pagination span {
+        margin: 0 5px;
+        padding: 0 4px;
+        font-size: 5vw;
+      }
+    
+
+    .character {
+        gap: 12px;
+        padding: 14px 0 35px 0;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .selects {
+        gap: 4px;
+    }
+
+    .selects-header {
+        font-size: 3vw;
+    }
+
+    #type {
+        font-size: 2vw;
+        padding: 7px 20px;
+    }
+
+    .choose {
+        font-size: 2.3vw;
+        padding: 8px 0;
+        margin-top: 12px;
+    }
+
+    /* footer */
+
+    .footer {
+        padding-top: 15px;
+        padding-bottom: 52px;
+    }
+
+    .row-headers-copy img {
+        width: 85%;
+        height: auto;
+    }
+
+    .copyright {
+        line-height: 2.8vw;
+        font-size: 1.7vw;
+    }
+
+    .footh {
+        font-size: 2vw;
+        margin-bottom: 12px;
+    }
+
+    .list li {
+        font-size: 1.6vw;
+        line-height: 2.4vw;
+    }
+
+    .list img {
+        width: 9%;
+        height: auto;
+    }
+
+    .footer-column-copy {
+        margin-top: -20px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .slider{
+        width: 77%;
+    }
+    .count-of-slider{
+        bottom: 40px;
+        right: -10px;
+      }
+      .slide-buttons {
+        bottom: 40px;
+        left:-10px;
+      }
+      
+      .burger-menu {
+        right: 50px;
+    }
+      
+      .prevslide{
+        padding:7px;
+      
+      }
+      .nextslide{
+        padding:7px;
+      
+      }
+
+}

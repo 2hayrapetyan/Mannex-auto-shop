@@ -1,0 +1,316 @@
+body {
+  font-weight: 500;
+  font-family: gilroy_f;
+}
+/*  */
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+/* header */
+.logo {
+  width: 20%;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.nav-bar {
+  width: 45%;
+  margin: auto;
+}
+
+.nav-list {
+  display: flex;
+  width: 100%;
+  font-size: 1.1vw;
+  font-weight: 400;
+  justify-content: end;
+  gap: 2%;
+}
+
+.nav-list a {
+  padding: 5px;
+  color: #434242;
+  display: inline-block;
+}
+
+.nav-list li a:hover {
+  background-color: #4ba9ff;
+  color: white;
+  transition: 0.3s;
+}
+
+.header {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.user-button {
+  padding: 5px 30px;
+  border: 1px solid #4ba9ff;
+}
+
+.sign-in {
+  padding: 10px 25px;
+  background-color: #4ba9ff;
+  border: 1px solid #4ba9ff;
+}
+.sign-in a {
+  color: white;
+}
+.bucket {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.bucket-reg {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  margin-left: 15px;
+}
+
+.burger-menu {
+  display: none;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 47%;
+  line-height: 97px;
+  margin: 0 auto;
+  border: 1px solid #43424280;
+}
+
+.search-btn {
+  padding: 13px 18px;
+  background-color: #4ba9ff;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.search-place {
+  width: 100%;
+  height: 100%;
+  padding-left: 40px;
+  font-size: 12px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 1124px) {
+  .container {
+    width: 84%;
+    margin: 0 auto;
+  }
+
+  .logo {
+    width: 29%;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+  .buck-reg {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+    position: fixed;
+    right: 100px;
+    z-index: 1000;
+  }
+
+  .burger-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 3vw;
+  }
+  .burger {
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 130px;
+    background: transparent;
+    width: auto;
+    background-color: white;
+    z-index: 1000;
+  }
+
+  .search {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .container {
+    width: 86%;
+  }
+
+  .logo {
+    width: 46%;
+  }
+
+  .search {
+    width: 90%;
+  }
+  .burger-list {
+    font-size: 4.5vw;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .burger-menu {
+    right: 50px;
+  }
+}
+
+/* footer */
+.wrapper {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 120px;
+  background-color: transparent;
+}
+
+.row1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.row-headers {
+  width: 20%;
+  gap: 5%;
+}
+
+.row-headers-copy {
+  width: 30%;
+}
+
+.row-headers-copy img {
+  width: 60%;
+  height: auto;
+}
+
+.row2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer-column {
+  width: 20%;
+  gap: 5%;
+}
+
+.footer-column-copy {
+  width: 30%;
+}
+
+.copyright {
+  margin-top: 45px;
+  line-height: 2vw;
+  font-size: 1vw;
+}
+
+.footh {
+  font-weight: 600;
+  font-size: 1.2vw;
+  margin-bottom: 35px;
+}
+
+.list li {
+  font-size: 0.9vw;
+  line-height: 2vw;
+}
+
+.list img {
+  width: 7%;
+  height: auto;
+}
+.list a {
+  color: black;
+}
+
+@media only screen and (max-width: 650px) {
+  .footer {
+    padding-top: 15px;
+    padding-bottom: 52px;
+  }
+
+  .row-headers-copy img {
+    width: 85%;
+    height: auto;
+  }
+
+  .copyright {
+    line-height: 2.8vw;
+    font-size: 1.7vw;
+  }
+
+  .footh {
+    font-size: 2vw;
+    margin-bottom: 12px;
+  }
+
+  .list li {
+    font-size: 1.6vw;
+    line-height: 2.4vw;
+  }
+
+  .list img {
+    width: 9%;
+    height: auto;
+  }
+
+  .footer-column-copy {
+    margin-top: -20px;
+  }
+}
+@media only screen and (max-width: 1124px) {
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 140px;
+  }
+
+  .row-headers-copy img {
+    width: 90%;
+    height: auto;
+  }
+
+  .copyright {
+    line-height: 2.8vw;
+    font-size: 1.4vw;
+  }
+
+  .footh {
+    font-size: 1.6vw;
+    margin-bottom: 30px;
+  }
+
+  .list li {
+    font-size: 1.4vw;
+    line-height: 2.4vw;
+  }
+
+  .list img {
+    width: 8%;
+    height: auto;
+  }
+}

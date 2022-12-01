@@ -1,0 +1,142 @@
+@import "../home\ page/reset.css";
+@import "./header_footer.css";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: gilroy_f;
+  src: url(../home\ page/fonts/Gilroy-Light.otf);
+}
+/* main */
+.parmd1h2 {
+  font-size: 3.333vw;
+  color: #434242;
+  margin: 50px 0;
+}
+
+.per_acc_reg_mine_div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.parmd2_1_input {
+  padding: 20px 0;
+  border: 1px solid rgba(67, 66, 66, 0.5);
+  text-indent: 40px;
+  font-size: 0.938vw;
+  color: #a6a6a6;
+  margin: 24px 18px;
+}
+.per_acc_reg_mine_div2_3 {
+  width: 19%;
+  margin: 0 auto;
+}
+.parmd2_3_button {
+  width: 100%;
+  padding: 20px 0;
+  background: #4ba9ff;
+  border: none;
+  font-size: 1.042vw;
+  color: white;
+  margin-top: 80px;
+}
+
+.parmd2_4_p {
+  text-align: center;
+  font-size: 0.781vw;
+  margin-top: 31px;
+  margin-bottom: 117px;
+}
+.success{
+  border: 2px solid  #1AC01D;
+  border-radius: 15px;
+}
+.error{
+  border: 2px solid #C0301A;
+  border-radius: 15px;
+}
+
+.parmd2_4_a {
+  color: rgba(255, 129, 129, 1);
+}
+.per_acc_reg_mine_div2 span{
+  color: #4ba9ff;
+  font-size: 1vw;
+}
+@media only screen and (max-width: 1124px) {
+  .parmd1h2 {
+    font-size: 6.25vw;
+    text-align: center;
+    margin: 54px 0 100px;
+  }
+
+  .per_acc_reg_mine_div2 {
+    width: 100%;
+  }
+
+  .parmd2_1_input {
+    width: 90%;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 1.758vw;
+  }
+  .per_acc_reg_mine_div2_3 {
+    width: 30%;
+  }
+  .parmd2_3_button {
+    width: 100%;
+    padding: 20px 0;
+    font-size: 1.953vw;
+    margin-top: 34px;
+  }
+
+  .parmd2_4_p {
+    font-size: 1.465vw;
+    margin-top: 31px;
+    margin-bottom: 73px;
+  }
+  .per_acc_reg_mine_div2 span{
+    font-size: 2.5vw;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .parmd1h2 {
+    font-size: 9.6vw;
+    text-align: center;
+    margin: 41px 0 50px;
+  }
+
+  .per_acc_reg_mine_div2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .parmd2_1_input {
+    width: 95%;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 4.8vw;
+  }
+  .per_acc_reg_mine_div2_3 {
+    width: 80%;
+  }
+  .parmd2_3_button {
+    padding: 20px 0;
+    font-size: 5.333vw;
+    margin-top: 34px;
+  }
+
+  .parmd2_4_p {
+    font-size: 4vw;
+    margin-top: 31px;
+    margin-bottom: 88px;
+  }
+  .per_acc_reg_mine_div2 span{
+    font-size: 4vw;
+  }
+}

@@ -1,0 +1,95 @@
+@import "../home\ page/reset.css";
+@import "./header_footer.css";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: gilroy_f;
+  src: url(../home\ page/fonts/Gilroy-Light.otf);
+}
+/* main */
+.my_info_main_div {
+  display: flex;
+  flex-direction: column;
+}
+.mimd1h2 {
+  font-size: 3.333vw;
+  color: #434242;
+  margin: 50px 0;
+}
+.my_info_main_div2 {
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+}
+.my_info_main_div2_div {
+  width: 46%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mimd2_2p {
+  font-size: 1.25vw;
+}
+.my_info_main_div3 {
+  display: flex;
+  justify-content: center;
+}
+.mimd3button a {
+  color: white;
+}
+.mimd3button {
+  width: 19%;
+  padding: 20px 0;
+  font-size: 1.042vw;
+  border: none;
+  background: #4ba9ff;
+  margin-bottom: 70px;
+}
+@media only screen and (max-width: 1124px) {
+  .mimd1h2 {
+    font-size: 6.25vw;
+    margin: 54px 0;
+    text-align: center;
+  }
+  .my_info_main_div2 {
+    margin-bottom: 70px;
+  }
+  .my_info_main_div2_div {
+    width: 78%;
+  }
+  .mimd2_2p {
+    font-size: 2.344vw;
+  }
+
+  .mimd3button {
+    width: 30%;
+    padding: 20px 0;
+    font-size: 1.953vw;
+    margin-bottom: 129px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .mimd1h2 {
+    font-size: 9.6vw;
+    margin: 73px 0 50px;
+    text-align: center;
+  }
+  .my_info_main_div2 {
+    margin-bottom: 65px;
+  }
+  .my_info_main_div2_div {
+    width: 100%;
+  }
+  .mimd2_2p {
+    font-size: 4.067vw;
+  }
+
+  .mimd3button {
+    width: 81%;
+    font-size: 5.333vw;
+    margin-bottom: 45px;
+  }
+}
